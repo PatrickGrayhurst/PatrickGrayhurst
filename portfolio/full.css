@@ -29,7 +29,7 @@ article
 }
 header
 {
-    background-color: #0003aa;
+    background: linear-gradient(to bottom, #0003aa, #B0BBFA);
     color: #FFFFFF;
     height: 15%;
 }
@@ -43,12 +43,13 @@ a.button
 {
     font-size: x-large;
     text-decoration: none;
-    background-color: #8A8A8A;
+    background: linear-gradient(45deg, #ff6161, #ff0000);
     display: block;
     width: 15%;
     float: left;
     padding: 8px;
     margin: 5px;
+    color: #000000;
 }
 .container
 {
