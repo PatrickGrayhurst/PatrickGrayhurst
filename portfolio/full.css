@@ -29,13 +29,13 @@ article
 }
 header
 {
-    background-color: #000000;
+    background-color: #0003aa;
     color: #FFFFFF;
     height: 15%;
 }
 footer
 {
-    background-color: #000000;
+    background-color: #0003aa;
     color: #FFFFFF;
     height: 10%;
 }
@@ -49,4 +49,9 @@ a.button
     float: left;
     padding: 8px;
     margin: 5px;
+}
+.container
+{
+    width: 50%;
+    margin: 0 auto;
 }
