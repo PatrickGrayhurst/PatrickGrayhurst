@@ -1,15 +1,19 @@
 @charset "UTF-8";
-body
+/*All the basic information of the page including the backgroud color and the fonts*/
+body, html
 {
     background-color: #000000;
     font-family: Verdana, Geneva, Arial, sans-serif;
     padding: 0px;
     margin: 0px;
+    height: 100%;
 }
+/*The margin for the text tags*/
 h1,h2,h3,h4,h5,h6,p,li,small
 {
     margin-left: 15px;
 }
+/*Wrapper styling including the size and the color*/
 #wrapper
 {
     width: 100%;
@@ -19,29 +23,30 @@ h1,h2,h3,h4,h5,h6,p,li,small
     margin-right: auto;
     background-color: #B0BBFA;
 }
-body, html 
-{
-    height: 100%;
-}
+/*Article size*/
 article
 {
     height: 75%;
 }
+/*Header styling*/
 header
 {
     background: linear-gradient(to bottom, #0003aa, #B0BBFA);
     color: #FFFFFF;
     height: 15%;
 }
+/*Footer styling*/
 footer
 {
     background-color: #0003aa;
     color: #FFFFFF;
     height: 10%;
 }
-a.button
+/*Styling for the buttons*/
+.button
 {
     font-size: x-large;
+    text-align: center;
     text-decoration: none;
     background: linear-gradient(45deg, #ff6161, #ff0000);
     display: block;
@@ -50,9 +55,21 @@ a.button
     padding: 8px;
     margin: 5px;
     color: #000000;
+    box-shadow:5px 5px 3px #420000;
 }
+/*Container size*/
 .container
 {
     width: 50%;
     margin: 0 auto;
+}
+/*For centering text*/
+.center
+{
+    text-align: center;
+}
+/*To put the labels above the inputs*/
+label 
+{
+    display: block;
 }
